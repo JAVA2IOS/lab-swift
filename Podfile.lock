@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Async (0.2.0)
+  - Hue (5.0.0)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - Kingfisher (4.10.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Realm (4.3.0):
+    - Realm/Headers (= 4.3.0)
+  - Realm/Headers (4.3.0)
+  - Result (4.1.0)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Async
+  - Hue
+  - IGListKit
+  - Kingfisher
+  - Moya
+  - Realm
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Async
+    - Hue
+    - IGListDiffKit
+    - IGListKit
+    - Kingfisher
+    - Moya
+    - Realm
+    - Result
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Async: d80205f1a1b4eea24de8ddc62cf5197ff3025330
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Realm: 9357c3589555793e1860a7104a7412bca4a48d99
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 84a387fbf43ad8715e075e69ae7c8c6397d4d148
+
+COCOAPODS: 1.8.4
