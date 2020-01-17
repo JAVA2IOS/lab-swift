@@ -19,9 +19,10 @@ class LabEmptyView: UIView {
     func initializeComponents() {
         imageView = UIImageView()
         addSubview(imageView!)
+        imageView?.backgroundColor = .red
         imageView!.snp_makeConstraints({ (make) in
             make.left.equalTo(self)
-            make.top.equalTo(self)
+            make.top.equalTo(self).offset(50)
             make.height.equalTo(40)
             make.right.equalTo(self)
         })
@@ -30,6 +31,7 @@ class LabEmptyView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        initializeComponents()
     }
     
     required init?(coder: NSCoder) {

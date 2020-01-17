@@ -26,6 +26,7 @@ class HomeViewController: UIViewController, ListAdapterDataSource {
     private func initilizeData() {
         data = [LabIngredient()]
         adapter = ListAdapter(updater: ListAdapterUpdater(), viewController: self)
+        adapter.collectionView = collection
         adapter.dataSource = self
     }
     
@@ -46,7 +47,7 @@ class HomeViewController: UIViewController, ListAdapterDataSource {
     }
     
     func emptyView(for listAdapter: ListAdapter) -> UIView? {
-        return nil
+        return LabEmptyView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height))
     }
     
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
