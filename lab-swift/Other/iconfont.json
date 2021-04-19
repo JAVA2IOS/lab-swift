@@ -1,0 +1,51 @@
+{
+  "id": "2453909",
+  "name": "lab-ios",
+  "font_family": "lab_ios",
+  "css_prefix_text": "icon",
+  "description": "ios开发demo",
+  "glyphs": [
+    {
+      "icon_id": "20478138",
+      "name": "地理",
+      "font_class": "dili",
+      "unicode": "e7d3",
+      "unicode_decimal": 59347
+    },
+    {
+      "icon_id": "20478139",
+      "name": "汉语文",
+      "font_class": "hanyuwen",
+      "unicode": "e7d4",
+      "unicode_decimal": 59348
+    },
+    {
+      "icon_id": "20478140",
+      "name": "化学",
+      "font_class": "huaxue",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    },
+    {
+      "icon_id": "20478141",
+      "name": "数学",
+      "font_class": "shuxue",
+      "unicode": "e7d6",
+      "unicode_decimal": 59350
+    },
+    {
+      "icon_id": "20478145",
+      "name": "生物",
+      "font_class": "shengwu",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "20478146",
+      "name": "政治",
+      "font_class": "zhengzhi",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    }
+  ]
+}
