@@ -17,6 +17,7 @@ PODS:
   - Result (4.1.0)
   - SnapKit (4.2.0)
   - SwiftyJSON (5.0.0)
+  - Then (2.7.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -28,9 +29,10 @@ DEPENDENCIES:
   - Realm
   - SnapKit
   - SwiftyJSON
+  - Then
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - Async
     - Hue
@@ -42,6 +44,7 @@ SPEC REPOS:
     - Result
     - SnapKit
     - SwiftyJSON
+    - Then
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -55,7 +58,8 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 84a387fbf43ad8715e075e69ae7c8c6397d4d148
+PODFILE CHECKSUM: 83228c7cdfb2418c31a2990fdd06bab9bbab728b
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1

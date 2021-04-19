@@ -9,7 +9,7 @@
 import UIKit
 import IGListKit
 
-class HomeViewController: UIViewController, ListAdapterDataSource {
+class HomeViewController: GenericController, ListAdapterDataSource {
     var collection : ListCollectionView!
     var adapter : ListAdapter!
     var data : [LabIngredient]!
@@ -32,9 +32,25 @@ class HomeViewController: UIViewController, ListAdapterDataSource {
     
     // MARK: - UI
     private func addSubViewComponents() {
+        
+        labNavBar.navbarTitle = "首页"
+        
+        // iconfont 矢量图标
+        let iconLabel = UILabel(frame: CGRect(x: 20, y: labNavBar.frame.maxY, width: 100, height: 50))
+        
+        iconLabel.textAlignment = .center
+        
+        iconLabel.iconFont(name: "\u{e7d4} \u{e7d5}", size: 25)
+        
+        iconLabel.textColor = "#51c4d3".color
+        
+        iconLabel.sizeToFit()
+        
+        view.addSubview(iconLabel)
+        
         let layout = ListCollectionViewLayout(stickyHeaders: true, scrollDirection: .vertical, topContentInset: 0, stretchToEdge: false)
         
-        collection = ListCollectionView(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: view.frame.size.width, height: view.frame.size.height)), listCollectionViewLayout: layout)
+        collection = ListCollectionView(frame: CGRect(origin: CGPoint(x: 0, y: 180), size: CGSize(width: view.frame.size.width, height: view.frame.size.height - 180)), listCollectionViewLayout: layout)
         collection.backgroundColor = .white
 
         view.addSubview(collection)

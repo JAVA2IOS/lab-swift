@@ -14,7 +14,7 @@ class ViewController: UITabBarController {
         super.viewDidLoad()
         
         
-        let homeNav = UINavigationController(rootViewController: HomeViewController())
+        let homeNav = UINavigationController(rootViewController: WanderImageAlbumPickerController())
         
         let item = UITabBarItem(title: "首页", image: nil, tag: 1)
         homeNav.tabBarItem = item
@@ -25,6 +25,7 @@ class ViewController: UITabBarController {
 }
 
 extension UITabBarController {
+    
     func hiddenTabBarLine() {
         tabBar.backgroundImage = UIImage()
         tabBar.shadowImage = UIImage()
